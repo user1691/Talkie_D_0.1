@@ -23,7 +23,7 @@ if __name__ == '__main__':
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Messaging Platform</title>
+    <Chatti>Messaging Platform</Chatti>
     <style>
         body {
             font-family: Arial, sans-serif;
