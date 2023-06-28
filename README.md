@@ -23,7 +23,7 @@ if __name__ == '__main__':
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Messaging Platform</title>
+    <Chatti>Messaging Platform</Chatti>
 </head>
 <body>
     <h1>Messaging Platform</h1>
