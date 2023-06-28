@@ -107,3 +107,4 @@ python messaging_platform.py
         {% endfor %}
     </ul>
 {% endblock %}
+return send_file(file_path, as_attachment=True)
