@@ -20,34 +20,6 @@ def send():
 if __name__ == '__main__':
     app.run(ssl_context='adhoc')  # Run the app using a self-signed certificate for testing
 
-<!DOCTYPE html>
-<html>
-<head>
-    <Chatti>Messaging Platform</Chatti>
-</head>
-<body>
-    <h1>Messaging Platform</h1>
-    <hr>
-    {% block content %}
-    {% endblock %}
-</body>
-</html>
-{% extends 'base.html' %}
-
-{% block content %}
-    <form method="POST" action="/send">
-        <input type="text" name="message" placeholder="Enter your message">
-        <button type="submit">Send</button>
-    </form>
-    <hr>
-    <ul>
-        {% for message in messages %}
-            <li>{{ message }}</li>
-        {% endfor %}
-    </ul>
-{% endblock %}
-pip install flask
-python messaging_platform.py
 
 <!DOCTYPE html>
 <html>
